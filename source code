@@ -1,0 +1,20 @@
+<html lang="en">
+<head>
+    <script>
+        function validate(number of people){
+            var ans="not to allow";
+            if(number of people <=4){
+                ans="allow to stay";
+            }
+            return(ans);
+        }
+    </script>
+</head>
+<body>
+    <script>
+        var number of people =parseInt(prompt("Enter number of people"));
+        var status=validate(number of people);
+        document.write("You are <b>"+status+"</b> for people to stay");
+    </script>
+</body>
+</html>
